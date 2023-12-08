@@ -20,7 +20,7 @@ ME 数学表达式计算组件是一种针对数学公式解析的有效工具�
     axios(
             {
                 // 在这里指定计算接口，请确保链接不要输错
-                url: "http://lsc.lingyuzhao.top:8080/LS-WebBackEnd/API/Mathematical_Expression_Run",
+                url: "http://lsc.lingyuzhao.top/LS-WebBackEnd/API/Mathematical_Expression_Run",
                 params: {
                     // 设置需要计算的数学表达式 表达式中的空格可以不规范 且支持嵌套括号计算
                     f: "1+2+(2 *(1 - 2))"
