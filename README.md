@@ -23,7 +23,9 @@ ME 数学表达式计算组件是一种针对数学公式解析的有效工具�
                 url: "http://lsc.lingyuzhao.top/LS-WebBackEnd/API/Mathematical_Expression_Run",
                 params: {
                     // 设置需要计算的数学表达式 表达式中的空格可以不规范 且支持嵌套括号计算
-                    f: "1+2+(2 *(1 - 2))"
+                    f: "1+2+(2 *(1 - 2))",
+                    // 设置您要使用的计算模式 如果设置为 true 返回的是一个 mermaid 图代码，代表的就是计算流程，如果设置为 false 返回的是一个 json 结果
+                    "explain": false
                 }
             }
     ).then(
